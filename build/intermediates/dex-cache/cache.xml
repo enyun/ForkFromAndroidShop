@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/admin/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-46981c85758edfd6ad764b8f54deaea8d16da98e.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Downloads/Shop/app/libs/bmobPush_0.3_beta.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a7195d8e7bce963cd4800659f6ff8e0b1cd7c2b">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/bmobPush_0.3_beta-e25395dd5e5fec619df26b02ec5b00810ae562fa.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Downloads/Shop/app/libs/open_sdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73915005d14af2994f235034b9f9832d666a6ec9">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/open_sdk-8938884a314b7111e4d33f923796148d69164e57.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Downloads/Shop/app/libs/AndroidAdSdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="26290d3d7b7f55ee96e18c75ecd370576592ee87">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/AndroidAdSdk-5c4dd9596d6c7ca090e987dea5cb2be5734e1edd.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Downloads/Shop/app/libs/mta-sdk-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1d1a215c3acd13ef011b8391cab495f7760c2a1d">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/mta-sdk-1.0.0-7153b95186860ac2fba5e13b5f87cd5ee1756de0.jar" />
+    </item>
+    <item
+        jar="/Users/admin/Downloads/Shop/app/libs/bmobsdk_v3.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8359ff0c6acf1492295726d846d6de1ed8d61c1c">
+        <dex dex="/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/bmobsdk_v3.2.2-0d136da23176fc5023686309c1d5f3da7ed859b2.jar" />
+    </item>
+
+</items>

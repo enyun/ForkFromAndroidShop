@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_home.xml" />
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_mine.xml" />
+        <ignore path="res/layout/activity_splash.xml" />
+        <ignore path="res/layout/copy_activity_home.xml" />
+        <ignore path="res/layout/viewpager_shopinfo.xml" />
+    </issue>
+    <issue id="CutPasteId">
+        <ignore path="src/com/stone/shop/view/ShopItemActivity.java" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/order_info_list_item.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/activity_mine_info.xml" />
+        <ignore path="res/layout/second_trade_all_list_item.xml" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/stone/shop/view/AwardActivity.java" />
+        <ignore path="src/com/stone/shop/view/LoginActivity.java" />
+        <ignore path="src/com/stone/shop/view/MineActivity.java" />
+        <ignore path="src/com/stone/shop/view/NewsActivity.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_about.xml" />
+        <ignore path="res/layout/activity_award.xml" />
+        <ignore path="res/layout/activity_bxt.xml" />
+        <ignore path="res/layout/activity_bxt_news.xml" />
+        <ignore path="res/layout/activity_feedback.xml" />
+        <ignore path="res/layout/activity_finder.xml" />
+        <ignore path="res/layout/activity_home.xml" />
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_mine.xml" />
+        <ignore path="res/layout/activity_mine_info.xml" />
+        <ignore path="res/layout/activity_mine_info_edit.xml" />
+        <ignore path="res/layout/activity_news.xml" />
+        <ignore path="res/layout/activity_order.xml" />
+        <ignore path="res/layout/activity_reset_psd.xml" />
+        <ignore path="res/layout/activity_shop.xml" />
+        <ignore path="res/layout/activity_shop_all.xml" />
+        <ignore path="res/layout/activity_splash.xml" />
+        <ignore path="res/layout/bxt_list_item.xml" />
+        <ignore path="res/layout/copy_activity_home.xml" />
+        <ignore path="res/layout/dlg_order.xml" />
+        <ignore path="res/layout/dlg_order_settime.xml" />
+        <ignore path="res/layout/goods_list_item.xml" />
+        <ignore path="res/layout/header_bxt_news.xml" />
+        <ignore path="res/layout/header_mine.xml" />
+        <ignore path="res/layout/header_order.xml" />
+        <ignore path="res/layout/mine_list_item.xml" />
+        <ignore path="res/layout/news_list_item.xml" />
+        <ignore path="res/layout/order_info_list_item.xml" />
+        <ignore path="res/layout/second_trade_all_list_item.xml" />
+        <ignore path="res/layout/shop_all_list_item.xml" />
+        <ignore path="res/layout/viewpager_shopinfo.xml" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/com/stone/shop/adapter/BXTListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/GoodsListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/MineListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/MineSoftAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/NewsListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/OrderInfoListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/SCommentAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/ShopListAdapter.java" />
+        <ignore path="src/com/stone/shop/adapter/TradeItemListAdapter.java" />
+        <ignore path="src/com/stone/shop/view/BaseActivity.java" />
+        <ignore path="src/com/stone/shop/view/ShopItemActivity.java" />
+    </issue>
+    <issue id="InlinedApi" severity="ignore" />
+    <issue id="NestedScrolling">
+        <ignore path="res/layout/activity_mine.xml" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/stone/shop/view/MineInfoEditActivity.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+    <issue id="ShowToast">
+        <ignore path="src/com/stone/shop/view/HomeActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore">
+        <ignore path="src/com/stone/shop/view/ShopItemActivity.java" />
+    </issue>
+    <issue id="SmallSp">
+        <ignore path="res/layout/viewpager_shopinfo.xml" />
+    </issue>
+    <issue id="UnusedAttribute">
+        <ignore path="res/layout/activity_shop_all.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/dlg_order.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/activity_order.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_about.xml" />
+        <ignore path="res/layout/activity_mine.xml" />
+        <ignore path="res/layout/bxt_list_item.xml" />
+        <ignore path="res/layout/dlg_order.xml" />
+        <ignore path="res/layout/goods_list_item.xml" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/stone/shop/adapter/GridAdapter.java" />
+    </issue>
+</lint>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/header_finder" />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+        
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+			android:layout_alignParentLeft="true">
+            
+            <Button
+                android:id="@+id/btn_campus_news"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#BC8F8F"/>
+            
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="校内速推"
+                android:marqueeRepeatLimit="marquee_forever"
+		        android:lines="2"
+		        android:textColor="#FFFFFF"
+		        android:textSize="17sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            
+            
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp" 
+            android:layout_centerInParent="true" >
+            
+            <Button
+                android:id="@+id/btn_wsq_tocao"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#48D1CC"/>
+            
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="开心吐槽"
+                android:marqueeRepeatLimit="marquee_forever"
+		        android:lines="2"
+		        android:textColor="#FFFFFF"
+		        android:textSize="17sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            
+            
+        </FrameLayout>
+        
+        <FrameLayout 
+            android:layout_width="60dp"
+            android:layout_height="60dp" 
+            android:layout_alignParentRight="true">
+            
+            <Button
+                android:id="@+id/btn_lucky_award"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#FF1493"/>
+            
+            <TextView 
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="每日一抽"
+                android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:lines="2"
+		        android:textColor="#FFFFFF"
+		        android:textSize="17sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            
+            
+        </FrameLayout>
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <include layout="@layout/header_award" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="今日中奖名单"
+            android:textColor="#FFFF8833"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1.5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFF8833" />
+
+        <EditText
+            android:id="@+id/et_award_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint=""
+            android:lines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="昨日中奖名单"
+            android:textColor="#FFFF8833"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1.5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFF8833" />
+
+        <EditText
+            android:id="@+id/et_award_old"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint=""
+            android:lines="1" />
+    </LinearLayout>
+
+</LinearLayout>

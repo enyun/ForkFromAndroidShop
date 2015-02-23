@@ -1,0 +1,7 @@
+/Users/admin/Downloads/Shop/app/build/intermediates/classes/debug
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/mta-sdk-1.0.0-7153b95186860ac2fba5e13b5f87cd5ee1756de0.jar
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/bmobPush_0.3_beta-e25395dd5e5fec619df26b02ec5b00810ae562fa.jar
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/AndroidAdSdk-5c4dd9596d6c7ca090e987dea5cb2be5734e1edd.jar
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/bmobsdk_v3.2.2-0d136da23176fc5023686309c1d5f3da7ed859b2.jar
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/open_sdk-8938884a314b7111e4d33f923796148d69164e57.jar
+/Users/admin/Downloads/Shop/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-46981c85758edfd6ad764b8f54deaea8d16da98e.jar
